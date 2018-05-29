@@ -12,15 +12,15 @@
 ### 4. Migrate(Create Tables)
 	php artisan migrate
 
-###5. Tinker(Add data to tables)
+### 5. Tinker(Add data to tables)
 ```bash
 php artisan tinker
 $var = new App\'ModelName'()
 $var->'attribute'='value'
 $var->save()
 ```
-###6. Make Authentications
+### 6. Make Authentications
 	php artisan make:auth
 
-###7. Link Storage.
+### 7.Link Storage.
 	php artisan link:storage
